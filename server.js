@@ -14,6 +14,8 @@ app.post("/", (req, res) => {
     console.log("hi :D");
 });
 
+module.exports = app;
+
 if (!process.env.VERCEL) {
     app.listen(6969, "Listening on http://localhost:6969, visit to test.");
 }
