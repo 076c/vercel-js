@@ -5,6 +5,8 @@ const app = express();
 
 app.get("/", (req, res) => {
     console.log("hi :D");
+
+    res.status(200).send("hi :D");
 });
 
 app.post("/", (req, res) => {
