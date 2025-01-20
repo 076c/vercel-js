@@ -1,6 +1,6 @@
 const { readFileSync } = require("fs");
 
-const express = require("epxress");
+const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
